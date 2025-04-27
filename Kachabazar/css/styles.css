@@ -1,0 +1,60 @@
+body {
+    background-image: url('../background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*login boxu */
+.login-container {
+    background: rgba(255, 255, 255, 0.9); /* white with slight transparency */
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 320px;
+}
+/*heading */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+/*The inputs*/
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+/*button*/
+.login-container input[type="submit"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*hover button color change*/
+.login-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/*hyperlink*/
+.login-container a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+.login-container a:hover {
+    text-decoration: underline;
+}
